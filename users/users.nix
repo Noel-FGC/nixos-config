@@ -1,0 +1,5 @@
+{
+  imports = [
+    noel/noel.nix
+  ];
+}
