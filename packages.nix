@@ -40,6 +40,7 @@
     plocate
     unzip
     gparted
+    ncdu 
     #flatpak
   ];
 }

@@ -17,21 +17,6 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
-  # this should 1000% go in hardware config but idc
-  boot.initrd.kernelModules = [ "amdgpu" ];
-
-  hardware = {
-    graphics = {
-      enable = true;
-      enable32Bit = true;
-    };
-    amdgpu.amdvlk = {
-      enable = true;
-      support32Bit.enable = true;
-    };
-  };
-
-
 
   services.displayManager.sddm = {
     enable = true;
