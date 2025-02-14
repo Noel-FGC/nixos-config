@@ -14,13 +14,14 @@
 	inputs.home-manager.nixosModules.default
     ];
 
+
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
 
-  services.displayManager.sddm = {
+  services.xserver.displayManager.gdm = {
     enable = true;
-    wayland.enable = true;
+    #wayland.enable = true;
   };
 
   nix.settings = {

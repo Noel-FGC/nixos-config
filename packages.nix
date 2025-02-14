@@ -41,6 +41,9 @@
     unzip
     gparted
     ncdu 
+    btop
+    zip
+
     #flatpak
   ];
 }

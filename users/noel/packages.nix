@@ -31,8 +31,12 @@
     mpv
     silicon
     hyprpicker
+    lazygit
     hyprprop
     base16-schemes
+    ripgrep
+    p7zip
+    xxd
 
     # fonts
     nerd-fonts.caskaydia-cove

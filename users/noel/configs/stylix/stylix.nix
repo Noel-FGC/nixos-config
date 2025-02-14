@@ -24,7 +24,20 @@
       kitty.enable = true;
       hyprpaper.enable = true;
     };
-    opacity.terminal = 0.6;
-    opacity.applications = 0.6;
+    opacity = {
+      terminal = 0.6;
+      applications = 0.6;
+    };
+    iconTheme = {
+      enable = true;
+      dark = "Arc";
+      #name = "Arc";
+      package = pkgs.arc-icon-theme;
+    };
+    cursor = {
+      name = "Bibata-Modern-Classic";
+      package = pkgs.bibata-cursors;
+      size = 24;
+    };
   };
 }

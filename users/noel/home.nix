@@ -5,6 +5,7 @@ let
   envvars = {
     #GTK_THEME = "adw-gtk3-dark";
     EDITOR = "nvim";
+    NIXOS_OZONE_WL = 1;
   };
 in
 {
@@ -25,6 +26,7 @@ in
     ./configs/zsh/zsh.nix
     ./configs/nvim/nvim.nix
     ./configs/stylix/stylix.nix
+    ./configs/lf/lf.nix
     ./bin/bin.nix
   ];
   # You should not change this value, even if you update Home Manager. If you do
